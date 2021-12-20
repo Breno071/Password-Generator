@@ -47,9 +47,10 @@ body {
 }
 
 .clipboard {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(114, 53, 255);
+  font-size: 30px;
   border: none;
-  height: 35px;
+  color: white;
 }
 
 .password-options {
