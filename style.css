@@ -1,0 +1,76 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(119, 0, 255);
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.generator {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(2, 58, 180);
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+
+.password-container {
+  padding: 10px;
+  display: flex;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  background-color: black;
+}
+
+.password span {
+  margin: auto 0;
+}
+
+.result {
+  word-break: break-all;
+  max-width: calc(100% - 40px);
+}
+
+.clipboard {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  height: 35px;
+}
+
+.password-options {
+  margin: 0 12px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#length {
+  width: 30px;
+  border: none;
+}
+
+.btngenerator {
+  width: 100%;
+  background-color: rgb(70, 111, 199);
+  color: white;
+  padding: 10px;
+  border: none;
+}
