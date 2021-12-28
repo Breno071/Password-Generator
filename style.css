@@ -2,7 +2,7 @@ body {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(119, 0, 255);
+  background-color: rgb(101, 99, 192);
   height: 100vh;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -47,7 +47,8 @@ body {
 }
 
 .clipboard {
-  background-color: rgb(114, 53, 255);
+  cursor: pointer;
+  background-color: black;
   font-size: 30px;
   border: none;
   color: white;
@@ -69,6 +70,7 @@ body {
 }
 
 .btngenerator {
+  cursor: pointer;
   width: 100%;
   background-color: rgb(70, 111, 199);
   color: white;
